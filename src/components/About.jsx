@@ -28,7 +28,7 @@ export default function About() {
       </ul>
 
       <a
-        href="/public/RobinLennox_Resume_2026.pdf" 
+        href="./RobinLennox_Resume_2026.pdf" 
         target="_blank"
         rel="noopener noreferrer"
         className="resume-link"

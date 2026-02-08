@@ -46,17 +46,7 @@
   padding: 20px;
 }
 
-.navbar-container {
-  width: 100vw;     
 
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 10px 20px;
-  background-color: #f3f3f3;
-  border-bottom: 1px solid #ddd;
-  box-sizing: border-box;   
-}
 
 .logo {
   width: 50px;
