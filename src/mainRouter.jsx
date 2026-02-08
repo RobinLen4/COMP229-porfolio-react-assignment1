@@ -10,19 +10,21 @@ import NotFound from './components/NotFound'
 
 const MainRouter = () => {
     return (
-        <div>
+        <>
             <Navbar />
-            <Routes>
+            <div className="page-container">
+                <Routes>
 
-                <Route exact path="/" element={<Home />} />
-                <Route exact path="/about" element={<About />} />
-                <Route exact path="/projects" element={<Project />} />
-                <Route exact path="/services" element={<Services />} />
-                <Route exact path="/contact" element={<Contact />} />
-                <Route path="*" element={<NotFound />} />
+                    <Route exact path="/" element={<Home />} />
+                    <Route exact path="/about" element={<About />} />
+                    <Route exact path="/projects" element={<Project />} />
+                    <Route exact path="/services" element={<Services />} />
+                    <Route exact path="/contact" element={<Contact />} />
+                    <Route path="*" element={<NotFound />} />
 
-            </Routes>
-        </div>
+                </Routes>
+            </div>
+        </>
     )
 }
 export default MainRouter;

@@ -5,7 +5,6 @@ import img_logo from "../assets/logo1.png"
 export default function Navbar() {
     return (
         <>
-            <h1>Robin Lennox - Portfolio</h1>
             <nav className="navbar">
                 <img src={img_logo} alt="Logo" className='logo'/>
                 <Link to="/">Home</Link>
